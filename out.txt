@@ -1,0 +1,53 @@
+push 3
+push 4
+push r24
+push 2
+mul
+mul
+add
+push r24
+sin
+mul
+push 3
+push r24
+mul
+push 4
+push r24
+push 2
+pow
+mul
+push 8
+add
+add
+push r24
+cos
+mul
+add
+push r24
+sin
+push 2
+pow
+div
+
+jp 1
+:105
+pop r0
+inp
+push r0
+ret
+:73
+pop r0
+out
+push r0
+ret
+:67
+pop r0
+outc 1
+push r0
+ret
+:99
+pop r0
+inpc
+push r0
+ret
+:1

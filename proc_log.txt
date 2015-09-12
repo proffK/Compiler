@@ -1,0 +1,5 @@
+arifmetical error
+processor pointer = 0xa9e250 
+stack pointer = 0xaa7ed0 data pointer = 0xa9e280			
+processor registors pointer = 0xaa9e40
+ processor counter = 748
